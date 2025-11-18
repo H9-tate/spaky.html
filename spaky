@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SPARK AI - India's Most Powerful Scam Shield</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Exo+2:wght@300;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--p:#00ffea;--d:#ff006e;--bg:#0a0e17;--card:#121525}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Exo 2',sans-serif;background:var(--bg);color:#fff;overflow-x:hidden}
+.terminal{background:#000;padding:12px;color:var(--p);font-family:Orbitron,monospace;font-size:15px;position:fixed;top:0;width:100%;z-index:100;text-align:center;border-bottom:2px solid #333}
+.typing{overflow:hidden;border-right:3px solid var(--p);white-space:nowrap;animation:t 5s steps(50) infinite,b 0.7s infinite}
+@keyframes t{0%{width:0}50%{width:100%}100%{width:100%}}@keyframes b{50%{border-color:transparent}}
+nav{position:fixed;top:44px;width:100%;background:rgba(10,14,23,.97);backdrop-filter:blur(20px);padding:15px 0;z-index:99;text-align:center}
+.logo{font-family:Orbitron,monospace;font-size:42px;font-weight:900;background:linear-gradient(90deg,var(--p),var(--d));-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-shadow:0 0 40px rgba(0,255,234,.8)}
+.hero{padding-top:200px;text-align:center}
+h1{font-family:Orbitron,monospace;font-size:5.5rem;line-height:1.1;background:linear-gradient(90deg,var(--p),var(--d),#8b00ff,var(--p));-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:g 4s infinite}
+@keyframes g{0%,100%{text-shadow:0 0 40px var(--p)}50%{text-shadow:0 0 70px var(--d)}}
+.count{font-size:90px;font-weight:900;background:linear-gradient(90deg,var(--p),var(--d));-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin:30px 0}
+.map{width:90%;max-width:1200px;height:500px;background:var(--card);margin:80px auto;border-radius:25px;position:relative;overflow:hidden;border:3px solid var(--p);box-shadow:0 0 60px rgba(0,255,234,.5)}
+.attack{position:absolute;width:20px;height:20px;background:var(--d);border-radius:50%;animation:a 3s infinite}
+@keyframes a{0%{transform:scale(0);opacity:1}100%{transform:scale(12);opacity:0}}
+.premium{position:fixed;top:100px;right:20px;background:linear-gradient(135deg,#000,#111);border:4px solid var(--p);border-radius:30px;padding:25px;width:340px;text-align:center;box-shadow:0 0 80px rgba(0,255,234,.8);animation:f 6s infinite}
+@keyframes f{0%,100%{transform:translateY(0)}50%{transform:translateY(-20px)}}
+.days{font-size:70px;color:var(--p);font-weight:900;text-shadow:0 0 30px var(--p)}
+.btn{background:linear-gradient(45deg,var(--p),var(--d));color:#000;padding:18px;border:none;border-radius:50px;width:100%;font-size:20px;font-weight:900;cursor:pointer;margin-top:15px}
+</style>
+</head>
+<body>
+<div class="terminal"><div class="typing">SPARK AI v12 // REAL-TIME CYBER DEFENSE ACTIVE // INDIA SECURED</div></div>
+<nav><div class="logo">SPARK<span style="color:#00ffea">AI</span></div></nav>
+<div class="hero">
+  <h1>SCAMMERS BLOCKED<br>IN REAL-TIME</h1>
+  <div class="count" id="c">4,127,893</div>
+  <p style="font-size:30px;color:#0f8">fake accounts neutralized today</p>
+</div>
+<div class="map" id="m">
+  <h2 style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-family:Orbitron;font-size:50px;color:var(--p)">LIVE THREAT MAP - INDIA</h2>
+</div>
+<div class="premium">
+  <h3 style="color:var(--p);font-size:26px">7 Days FREE Trial</h3>
+  <div class="days" id="d">7</div>
+  <p>days left</p>
+  <p style="line-height:2;font-size:18px"><b style="color:var(--p)">3 Months → $19</b><br><b style="color:#0f8">6 Months → $49</b><br><b>1 Year → $112</b></p>
+  <button class="btn">GO PREMIUM NOW</button>
+</div>
+<script>
+let c=4127893,d=7;
+setInterval(()=>{c+=Math.floor(Math.random()*70)+30;document.getElementById('c').textContent=c.toLocaleString()},2500);
+setInterval(()=>{if(d>0){d--;document.getElementById('d').textContent=d;if(d===0)document.querySelector('.premium h3').innerHTML='<span style="color:red">TRIAL EXPIRED</span>'}},20000);
+setInterval(()=>{const m=document.getElementById('m'),a=document.createElement('div');a.className='attack';a.style.top=Math.random()*80+'%';a.style.left=Math.random()*80+'%';m.appendChild(a);setTimeout(()=>a.remove(),3000)},1200);
+</script>
+</body></html>
